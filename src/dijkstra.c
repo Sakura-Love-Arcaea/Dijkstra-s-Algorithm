@@ -57,6 +57,6 @@ Table dijkstra(Graph *graph, int start, int end) {
             }
         }
     }
-
+    reset(graph);
     return table;
 }

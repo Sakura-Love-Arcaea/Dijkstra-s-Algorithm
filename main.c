@@ -64,6 +64,8 @@ int main() {
     printf("%d\n", end);
     printf("%.2lf\n", table[end].distantFromStart);
 
+    depthFirstTraversal(graph, 0);
+    breadthFirstTraversal(graph, 0);
 
     return 0;
 }

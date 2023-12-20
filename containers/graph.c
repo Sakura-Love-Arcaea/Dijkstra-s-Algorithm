@@ -3,6 +3,7 @@
 #include "../headers/stack.h"
 #include "../headers/queue.h"
 #include "../headers/graph.h"
+#include "../debug/debug.h"
 
 Graph *createGraph() {
     Graph* graph = (Graph *) malloc(sizeof(Graph));
